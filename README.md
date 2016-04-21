@@ -43,7 +43,9 @@ docker rm mesos_slave_1 mesos_slave_2 mesos-marathon mesos-master zookeeper
 ## Two - nodes (at least 4GB of RAM each for basic testing)
 
 Variables HOST_IP_1 and HOST_IP_2 should be setup before (with the local IP of the docker servers).
+
 export HOST_IP_1=10.2.103.73
+
 export HOST_IP_2=10.11.33.193
 
 Creates: Zookeper, master, marathon, slave on each node
